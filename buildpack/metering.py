@@ -21,7 +21,7 @@ def _download(build_path, cache_dir):
     util.download_and_unpack(
         "https://mx-cdn-test2.s3.eu-west-1.amazonaws.com/mx-buildpack/experimental/metering/metering-sidecar-linux-amd64-v1.0.6.tar.gz",
         os.path.join(build_path, NAMESPACE),
-        //cache_dir=cache_dir,
+        cache_dir=cache_dir,
     )
 
 
